@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-color: rgb(83, 86, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 17rem;
+    height: 90px;
+}
+.header h2{
+    color: #fff;
+}
+.logo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 41px;
+    height: 48px;
+    margin-right: 10px;
+}
+menu{
+    display: flex;
+}
+menu ul{
+    display: flex;
+    align-items: center;
+}
+menu img{
+    margin-left: 20px;
+}
+
+menu ul li a{
+    color: #fff;
+    margin: 20px;
+    transition: .5s ease-in;
+}
+
+
+menu ul li a:hover{
+    color: black;
+}
+.top-player{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    height: 120vh;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+h2{
+    color: rgb(83, 86, 255);
+    margin: 40px;
+    font-size: 25px;
+}
+.player img{
+    height: 60px;
+    margin-right: 20px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.player p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.top-player hr{
+    width: 90%;
+    margin: 0 auto;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+
+
+.card{
+    height: 150px;
+    display: flex;
+    margin-bottom: 25px;
+
+
+}
+.card img{
+    height: 100%;
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.card-details{
+    padding: 10px;
+    line-height: 35px;
+}
+
+
+.name{
+    color: rgb(83, 86, 255);
+}
+
+.by{
+    color: rgba(150, 150, 150, 0.74);
+}
+
+
